@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  background-color: red;
+  color: black;
+  width: 100%; 
+  position: relative;
+}
+
+header .logo {
+    float: left;
+    position: relative;
+  }
+
+header .logo img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+header .logo1 {
+  float: right;
+  position: relative;
+}
+
+header .logo1 img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+header .judul {
+  width: 90%;
+  text-align: center;
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+    
+nav {
+  background-color: black;
+  width: 100%;
+  font-size: larger;
+  border: 2px black;
+  border-left: none;
+  border-right: none;
+}
+
+nav ul {
+  list-style-type: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+  nav ul li a:hover {
+  color: white;
+}
+
+.konten {  
+  padding-left:  20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.konten table {
+  width: 100%;
+}
+
+.konten table th {
+  padding: 10px;
+  color: white;
+  font-size: large;
+  background-color: darkblue;
+}
+
+.konten table td {
+  padding: none;
+  padding-left: 10%;
+}
+
+.konten1 {  
+  padding-top: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px; 
+  width: 100%;
+}
+
+.konten1 table {
+  position: center;
+  width: 100%;
+}
+
+.konten1 table th {
+  padding: 10px;
+  color: black;
+  font-size: 4;
+  background-color: white;
+}
+
+.konten1 table td {
+  padding: 15px;
+}
+
+.container table {
+    float: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container table, th, td {
+
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.container th {
+    background-color: #f2f2f2;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+    
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="text"],
+select,
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+select:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
